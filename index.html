@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daily Offers, Daily Discounts on DMart Ready</title>
+  <link rel="icon" href="images/grocy.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link   rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <img class="logo" src="https://cdn.dmart.in/images/icons/dmart_ready_logo.svg" alt="">
+    <div class="loc">
+      <div>Earliest <span style="color: green">Home Delivery </span>available</div>
+      <div><strong>Tomorrow 07:00 AM - 10:00 AM</strong></div>
+    </div>
+
+    <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#features">Exclusive</a>
+      <a href="#products">Offers</a>
+      <a href="#categories">categories</a>
+    </nav>
+    <div class="icons">
+      <div class="fas fa-bars" id="menu-btn"></div>
+      <div class="fas fa-search" id="search-btn"></div>
+      <div class="fas fa-shopping-cart" id="cart-btn"></div>
+      <div class="fas fa-user" id="login-btn"></div>
+    </div>
+    <form action="" class="search-form">
+      <input type="text" id="search-box" placeholder="search here..." />
+      <label for="search-box" class="fas fa-search"></label>
+    </form>
+    <div class="shopping-cart">
+      <div class="box">
+        <i class="fas fa-trash"></i>
+        <img src="images/watermelon.png" alt="" />
+        <div class="content">
+          <h3>watermelon</h3>
+          <span class="pice">$4.99-</span>
+          <span class="quantity">qty:1</span>
+        </div>
+      </div>
+      <div class="box">
+        <i class="fas fa-trash"></i>
+        <img src="images/onion.png" alt="" />
+        <div class="content">
+          <h3>onion</h3>
+          <span class="pice">$4.99-</span>
+          <span class="quantity">qty:1</span>
+        </div>
+      </div>
+      <div class="box">
+        <i class="fas fa-trash"></i>
+        <img src="images/chicken.png" alt="" />
+        <div class="content">
+          <h3>chicken</h3>
+          <span class="pice">$4.99-</span>
+          <span class="quantity">qty:1</span>
+        </div>
+      </div>
+      <div class="total">total: $19.69/-</div>
+      <a href="#" class="btn">check out</a>
+    </div>
+    <form action="" class="login-form">
+      <h3>Login Now</h3>
+      <input type="email" placeholder="your email" class="box" />
+      <input type="password" placeholder="your password" class="box" />
+      <p>forget your password <a href="#">click here</a></p>
+      <p>don't have an account <a href="#">create now</a></p>
+      <input type="submit" value="login now" class="btn" />
+    </form>
+  </header>
+
+  <section class="home" id="home">
+  </section>
+
+  <section class="features" id="features">
+    <h1 class="heading">Exclusive <span>Deals</span></h1>
+    <div class="box-container">
+
+      <div class="box">
+        <img src="https://cdn.dmart.in/images/rwd/banners/curated/1mar24-curated-halfprice-mum.jpg" alt="">
+      </div>
+      <div class="box">
+        <img src="https://cdn.dmart.in/images/rwd/banners/curated/1mar24-curated-dex-mum.jpg" alt="">
+      </div>
+      <div class="box">
+        <img src="https://cdn.dmart.in/images/rwd/banners/curated/21feb24-curated-exam-hp2.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="products" id="products">
+    <h1 class="heading">Today <span>Offers</span></h1>
+    <div class="swiper product-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide box">
+          <img src="https://cdn.dmart.in/images/products/IMilk1LAMUL3174xx260521_5_B.jpg" alt="" />
+          <h3>Amul Taaza Toned Milk: 1 Litre</h3>
+          <div class="price"><span style="text-decoration: line-through;">₹74</span> ₹69</div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="https://cdn.dmart.in/images/products/JUL140001257xx11JUL23_5_B.jpg" alt="" />
+          <h3>Whisper Ultra Clean XL+ Wings Pads: 60 U</h3>
+          <div class="price"><span style="text-decoration: line-through;">₹725</span> ₹529</div>
+       
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="https://cdn.dmart.in/images/products/LCHANADal1kgTATA30xx190521_5_B.jpg" alt="" />
+          <h3>Tata Sampann 100% Organic Chana Dal: 1 kg</h3>
+          <div class="price"><span style="text-decoration: line-through;">₹210</span> ₹170</div>
+        
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="swiper-slide box">
+          <img src="images/products-4.png" alt="" />
+          <h3>fresh cabbage</h3>
+          <div class="price">$4.99-$10.00/-</div>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="https://cdn.dmart.in/images/products/LBRIEF0Litt16xx081019_3_B.jpg" alt="" />
+            <h3>Macho Brief Smart Cut - 90 cm: 2 Pieces</h3>
+            <div class="price"><span style="text-decoration: line-through;">₹260</span> ₹195</div>
+            
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="https://cdn.dmart.in/images/products/MAY150005206xx19MAY23_5_B.jpg" alt="" />
+            <h3>Beezy Stainless Steel Ice Cream Scoop: 1 Unit</h3>
+            <div class="price"><span style="text-decoration: line-through;">₹275</span> ₹129</div>
+           
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="https://cdn.dmart.in/images/products/DEC230000591xx28DEC23_5_B.jpg" alt="" />
+            <h3>Classmate (6 Subject) Single Line Notebook</h3>
+            <div class="price"><span style="text-decoration: line-through;">₹145</span> ₹119</div>
+           
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="images/products-8.png" alt="" />
+            <h3>green lemon</h3>
+            <div class="price">$4.99-$10.00/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="img_transition">
+    <img class="img_baby" src="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F1jan24-crsl-babycare.jpg&w=1920&q=75" alt="">
+    <img class="img_dog" src="https://www.dmart.in/_next/image?url=https%3A%2F%2Fcdn.dmart.in%2Fimages%2Frwd%2Fbanners%2Fhmpg%2F1feb24-crsl-petfood.jpg&w=1920&q=75" alt="">
+  </div>
+
+  <section class="categories" id="categories">
+    <h1 class="heading">Popular <span>categories</span></h1>
+    <div class="box-container">
+      <div class="box">
+        <img src="images/cat-1.png" alt="" style="position: relative; left: -16px; width: 29rem; padding-top: 6rem;" />
+        <h3>Fruits & Vegetables</h3>
+        <p>upto 45% off</p>
+        <a href="#" class="btn">shop now</a>
+      </div>
+      <div class="box">
+        <img src="https://www.shutterstock.com/image-illustration/picture-household-appliances-on-white-600nw-84415987.jpg" alt="" style="width: 27rem;position: relative;left: -2px;" />
+        <h3>Applicances</h3>
+        <p>upto 45% off</p>
+        <a href="#" class="btn">shop now</a>
+      </div>
+      <div class="box">
+        <img src="images/cat-3.png" alt="" style="position: relative;left: -20px;width: 29rem;padding-top: 2.5rem;" />
+        <h3>Dairy & Beverages</h3>
+        <p>upto 45% off</p>
+        <a href="#" class="btn">shop now</a>
+      </div>
+      <div class="box">
+        <img src="https://media.istockphoto.com/id/147280026/photo/collection-of-personal-hygiene-products.jpg?s=612x612&w=0&k=20&c=4E7B2HBjPEoymkbZmExNnfyRL7D2GTqAK5gWzz6jUv0=" alt="" style="width: 27rem;position: relative;left: -7px;padding-top: 8.5rem;" />
+        <h3>Personal Care</h3>
+        <p>upto 45% off</p>
+        <a href="#" class="btn">shop now</a>
+      </div>
+      <div class="box">
+        <img src="https://www.retail4growth.com/public/thumbs/news/2017/11/3267/retail-thumb_440_851.gif" alt="" style="    position: relative;left: -10px;width: 28rem;padding-top: 8.5rem;" />
+        <h3>Packaged Food</h3>
+        <p>upto 45% off</p>
+        <a href="#" class="btn">shop now</a>
+      </div>
+      <div class="box">
+        <img src="https://www.bansalsupermarket.com/upload/category/grocery_staples/branded_grocessary.png" alt="" style="position: relative;left: -21px;width: 30rem;padding-top: 8.5rem;" />
+        <h3>Grocery</h3>
+        <p>upto 45% off</p>
+        <a href="#" class="btn">shop now</a>
+      </div>
+      <div class="box">
+        <img src="https://i.pinimg.com/236x/2e/27/c1/2e27c14a49ca98cab505b387602e1106.jpg" alt="" style="width: 26rem; padding-top: 8.5rem" />
+        <h3>Beauty & Cosmetics</h3>
+        <p>upto 45% off</p>
+        <a href="#" class="btn">shop now</a>
+      </div>
+      <div class="box">
+        <img src="https://thumbs.dreamstime.com/b/global-washing-detergent-brands-poznan-poland-jan-soap-industry-includes-companies-remains-highly-84822558.jpg" alt="" style="    position: relative;left: -10px;width: 28rem;padding-top: 8.5rem;" />
+        <h3>Home & Kitchen</h3>
+        <p>upto 45% off</p>
+        <a href="#" class="btn">shop now</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="download">
+      <p>Download DMart Ready Mobile App Now!! </p>
+      <img src="https://cdn.dmart.in/images/rwd/footer/google-play.svg" alt="">
+      <img src="https://cdn.dmart.in/images/rwd/footer/download-app-store.svg" alt="">
+    </div>
+    <div class="faq">
+      <div class="faq1">
+        <ul>
+          <li>FAQs</li>
+          <li>Privacy Policy</li>
+          <li>Pricing, Delivery, Return and Refund Policy</li>
+          <li>Terms and Conditions</li>
+        </ul>
+      </div>
+      <div class="faq2">
+        <ul>
+          <li>Contact Us</li>
+          <li>About Us</li>
+          <li>Pickup Points</li>
+          <li>Disclaimer</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
